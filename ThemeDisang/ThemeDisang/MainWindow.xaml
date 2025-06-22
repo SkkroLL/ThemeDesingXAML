@@ -1,0 +1,33 @@
+﻿<Window x:Class="dizain.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Регистрация" Height="450" Width="600"
+        Background="{DynamicResource MaterialDesignBackground}">
+    <Grid Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Привет вам!"
+                   Style="{StaticResource MaterialDesignHeadline6}"
+                   HorizontalAlignment="Left"
+                   Margin="10,10,0,20" FontSize="30"/>
+        <Button Content="Регистрация" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="37" Width="98" Foreground="White" Background="#FF673FB9"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="492,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="37" Width="98" Foreground="#FF673FB9" Background="White" BorderThickness="0"/>
+        <Button Content=" ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Center" Margin="0,102,0,0" Grid.Row="2" VerticalAlignment="Top" Height="37" Width="580" Foreground="#FF673FB9" Background="White" BorderThickness="0" Click="Button_Click"/>
+        <Label Content="Введите логин" HorizontalAlignment="Left" Margin="10,94,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="-0.09,1.035" Width="568"/>
+        <Button Content=" __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Center" Margin="0,144,0,0" Grid.Row="2" VerticalAlignment="Top" Height="37" Width="580" Foreground="#FF673FB9" Background="White" BorderThickness="0" Click="Button_Click"/>
+        <Label Content="Введите пароль" HorizontalAlignment="Left" Margin="10,136,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="-0.09,1.035" Width="568"/>
+        <Button Content=" __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Center" Margin="0,199,0,0" Grid.Row="2" VerticalAlignment="Top" Height="37" Width="580" Foreground="#FF673FB9" Background="White" BorderThickness="0" Click="Button_Click"/>
+        <Label Content="Введите пароль" HorizontalAlignment="Left" Margin="10,173,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="-0.09,1.035" Width="568"/>
+        <Label Content="********" HorizontalAlignment="Center" Margin="0,197,0,0" Grid.Row="2" VerticalAlignment="Top" Height="51" Width="580" FontSize="22"/>
+        <Label Content="********" HorizontalAlignment="Center" Margin="0,197,0,0" Grid.Row="2" VerticalAlignment="Top" Height="51" Width="580" FontSize="22"/>
+        <Button Content=" ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Center" Margin="0,241,0,0" Grid.Row="2" VerticalAlignment="Top" Height="37" Width="580" Foreground="#FF673FB9" Background="White" BorderThickness="0" Click="Button_Click"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="10,233,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="-0.09,1.035" Width="568"/>
+        <Button Content="Зарегестрироваться" HorizontalAlignment="Center" Margin="0,283,0,0" Grid.Row="2" VerticalAlignment="Top" Height="37" Width="580" Foreground="White" Background="#FF673FB9"/>
+
+
+    </Grid>
+</Window>
